@@ -1,0 +1,6 @@
+git checkout -b
+Fast-forward occurs when the two branches that have the same previous commits because original branch hasn't changed.
+On the other hand, recursive merge occurs when original branch and the other branch made changes. Thus, making the previous commits different.
+git checkout
+git branch -D
+Merge conflicts occur when Git can't choose which file to pick while merging because there has been different commits in different branches. 
