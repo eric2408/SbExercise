@@ -17,7 +17,7 @@ function getCurrentUIValues() {
   }
 }
 
-// Get the inputs from the DOM.
+// Get the inputs from the DOM.s
 // Put some default values in the inputs
 // Call a function to calculate the current monthly payment
 function setupIntialValues() {
