@@ -20,7 +20,6 @@ function makeBoard() {
   for(let y=0; y < HEIGHT; y++){
     board.push(Array.from({length: WIDTH}))
   }
-  console.log(board);
 }
 
 /** makeHtmlBoard: make HTML table and row of column tops. */
@@ -113,7 +112,7 @@ function handleClick(evt) {
   // check for tie
   // TODO: check if all cells in board are filled; if so call, call endGame
   if(board.every(row => row.every(cell => cell))){
-    return ('Tie Game!')
+    return endGame('Tie Game!');
   }
 
   // switch players
