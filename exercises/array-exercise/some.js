@@ -22,8 +22,11 @@ function hasNoDuplicates(arr){
     return arr.every(function(val){
         return arr.indexOf(val) === arr.lastIndexOf(val);
     })
-    
+
 }
+
+
+
 
 function hasCertainKey(arr, key){
     return arr.every(function(val){

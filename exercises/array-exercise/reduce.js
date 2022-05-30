@@ -30,6 +30,7 @@ function addKeyAndValue(arr, key, value){
     }, arr)
 }
 
+
 function partition(arr, callBack){
     return arr.reduce(function(val, next){
         if(callBack(next)){
